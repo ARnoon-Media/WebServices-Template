@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Render All Element Normally -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- Font Awesome Library -->
+        <script src="https://kit.fontawesome.com/0268a9b753.js" crossorigin="anonymous"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+        <!-- Main Template CSS File -->
+        <link rel="stylesheet" href="css/taskhistory.css">
+        <title>WebServices | Task History</title>
+    </head>
+    <body>
+        <!-- Start Header Section -->
+        <div class="header" id="header">
+            <div class="bottom-nav">
+                <div class="cards">
+                    <div class="card">
+                        <i class="fa-solid fa-border-all activ"></i>
+                        <span><a class="activ" href="index.html">Task List</a></span>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-earth-oceania"></i>
+                        <span><a href="newse.html">News</a></span>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-user"></i>
+                        <span><a href="profile.html">Profile</a></span>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-bars"></i>
+                        <span class="mega-menue"><a href="#">Menu</a></span>
+                        <div class="menue-bottome">
+                            <h3>Menue</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-circle-question"></i>
+                                    <a href="help.html">Help</a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-border-all activ"></i>
+                                    <a href="taskhistory.html">Task History</a> 
+                                </li>
+                                <li class="dark">
+                                    <i class="fa-solid fa-circle-half-stroke"></i>
+                                    <a href="#">Dark Mode</a> 
+                                </li>
+                                <li class="log">
+                                    <i class="fa-solid fa-right-from-bracket log"></i>
+                                    <a href="#">Log Out</a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="middel-nav">
+                        <div class="box">
+                            <i class="fa-solid fa-border-all activ"></i>
+                            <span class="activ"><a href="index.html">Task List</a></span>
+                        </div>
+                        <div class="box">
+                            <i class="fa-solid fa-earth-oceania"></i>
+                            <span><a href="newse.html">News</a></span>
+                        </div>
+                        <div class="box">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <span><a href="help.html">Help</a></span>
+                        </div>
+                    </div>
+                    <div class="user-left">
+                        <div class="creat">
+                            <span>+</span>
+                            <div class="numbers">
+                                <i class="fa-solid fa-database"></i>
+                                <span class="number">2030</span>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <a href="profile.html"><img src="images/avatar.png" alt="avatar"></a>
+                            <i class="fa-solid fa-angle-down menue-drop"></i>
+                            <div class="menue">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-user"></i>
+                                        <a href="#">My Profile</a> 
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-border-all activ"></i>
+                                        <a href="#">Task History</a> 
+                                    </li>
+                                    <li class="dark">
+                                        <i class="fa-solid fa-circle-half-stroke"></i>
+                                        <a href="#">Dark Mode</a> 
+                                    </li>
+                                    <li class="log">
+                                        <i class="fa-solid fa-right-from-bracket log"></i>
+                                        <a href="#">Log Out</a> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- End Header Section -->
+        <!-- Start Task History Section -->
+        <div class="task-history" id="task-history">
+            <div class="container">
+                <h2>Task History</h2>
+                <div class="title">
+                    <div class="st">
+                        <span>Status</span>
+                    </div>
+                    <div class="ne">
+                        <span>Network</span>
+                    </div>
+                    <div class="ty">
+                        <span>Type Of Task</span>
+                    </div>
+                    <div class="pr">
+                        <span>Progress</span>
+                    </div>
+                    <div class="co">
+                        <span>Coins</span>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <i class="fa-solid fa-circle-pause circles"></i>
+                        <div class="be">
+                            <i class="fa-brands fa-behance"></i>
+                            <span>Behance</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Likes</span>
+                        </div>
+                        <div class="progress">
+                            <span>230</span>
+                            <span>400</span>
+                            <span></span>
+                            <span style="width:65%"></span>
+                        </div>
+                        <div class="coin">
+                            <i class="fa-solid fa-database"></i>
+                            <span>10</span>
+                        </div>
+                        <i class="fa-solid fa-trash-can trash"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-circle-pause circles"></i>
+                        <div class="be">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>Dribbble</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-comment green-user"></i>
+                            <span>Comments</span>
+                        </div>
+                        <div class="progress">
+                            <span>11</span>
+                            <span>20</span>
+                            <span></span>
+                            <span style="width:55%"></span>
+                        </div>
+                        <div class="coin">
+                            <i class="fa-solid fa-database"></i>
+                            <span>120</span>
+                        </div>
+                        <i class="fa-solid fa-trash-can trash"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-circle-play circles"></i>
+                        <div class="be">
+                            <i class="fa-brands fa-behance"></i>
+                            <span>Behance</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-user blue-user"></i>
+                            <span>Follwers</span>
+                        </div>
+                        
+                        <div class="progress">
+                            <span>35</span>
+                            <span>35</span>
+                            <span></span>
+                            <span style="width:100%"></span>
+                        </div>
+                        <div class="coin">
+                            <i class="fa-solid fa-database"></i>
+                            <span>100</span>
+                        </div>
+                        <i class="fa-solid fa-trash-can trash"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-circle-play circles"></i>
+                        <div class="be">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>Dribbble</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>veiws</span>
+                        </div>
+                        <div class="progress">
+                            <span>1050</span>
+                            <span>1050</span>
+                            <span></span>
+                            <span style="width:100%"></span>
+                        </div>
+                        <div class="coin">
+                            <i class="fa-solid fa-database"></i>
+                            <span>5</span>
+                        </div>
+                        <i class="fa-solid fa-trash-can trash trash"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-circle-play circles"></i>
+                        <div class="be">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>Dribbble</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-user blue-user"></i>
+                            <span>Follwers</span>
+                        </div>
+                        <div class="progress">
+                            <span>950</span>
+                            <span>950</span>
+                            <span></span>
+                            <span style="width:100%"></span>
+                        </div>
+                        <div class="coin">
+                            <i class="fa-solid fa-database"></i>
+                            <span>25</span>
+                        </div>
+                        <i class="fa-solid fa-trash-can trash"></i>
+                    </div>
+                </div>
+                <button>Show More</button>
+                <div class="titles">
+                    <div class="sts">
+                        <span>Status</span>
+                    </div>
+                    <div class="net">
+                        <span>Network/Type Task</span>
+                    </div>
+                    <div class="prog">
+                        <span>Progress / Coins</span>
+                    </div>
+                </div>
+                <div class="boxes-mob">
+                    <div class="box-mob">
+                        <div class="box-one">
+                            <i class="fa-solid fa-circle-pause circles"></i>
+                            <div class="be">
+                                <i class="fa-brands fa-behance"></i>
+                                <span>Behance</span>
+                            </div>
+                            <div class="progres">
+                                <div class="prog">
+                                    <span>230</span>
+                                    <span>400</span>
+                                </div>
+                                <span></span>
+                                <span style="width:65%"></span>
+                            </div>
+                        </div>
+                        <div class="box-two">
+                            <i class="fa-solid fa-trash-can trash"></i>
+                            <div class="likes">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Likes</span>
+                            </div>
+                            <div class="coin">
+                                <i class="fa-solid fa-database"></i>
+                                <span>10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-mob">
+                        <div class="box-one">
+                            <i class="fa-solid fa-circle-pause circles"></i>
+                            <div class="be">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>Dribbble</span>
+                            </div>
+                            <div class="progres">
+                                <div class="prog">
+                                    <span>11</span>
+                                    <span>20</span>
+                                </div>
+                                <span></span>
+                                <span style="width:50%"></span>
+                            </div>
+                        </div>
+                        <div class="box-two">
+                            <i class="fa-solid fa-trash-can trash"></i>
+                            <div class="likes">
+                                <i class="fa-solid fa-comment green-user"></i>
+                                <span>Comments</span>
+                            </div>
+                            <div class="coin">
+                                <i class="fa-solid fa-database"></i>
+                                <span>120</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-mob">
+                        <div class="box-one">
+                            <i class="fa-solid fa-circle-play circles"></i>
+                            <div class="be">
+                                <i class="fa-brands fa-behance"></i>
+                                <span>Behance</span>
+                            </div>
+                            <div class="progres">
+                                <div class="prog">
+                                    <span>35</span>
+                                    <span>35</span>
+                                </div>
+                                <span></span>
+                                <span style="width:100%"></span>
+                            </div>
+                        </div>
+                        <div class="box-two">
+                            <i class="fa-solid fa-check checked"></i>
+                            <div class="likes">
+                                <i class="fa-solid fa-user blue-user"></i>
+                                <span>Follwers</span>
+                            </div>
+                            <div class="coin">
+                                <i class="fa-solid fa-database"></i>
+                                <span>100</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-mob">
+                        <div class="box-one">
+                            <i class="fa-solid fa-circle-play circles"></i>
+                            <div class="be">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>Dribbble</span>
+                            </div>
+                            <div class="progres">
+                                <div class="prog">
+                                    <span>1050</span>
+                                    <span>1050</span>
+                                </div>
+                                <span></span>
+                                <span style="width:100%"></span>
+                            </div>
+                        </div>
+                        <div class="box-two">
+                            <i class="fa-solid fa-check checked"></i>
+                            <div class="likes">
+                                <i class="fa-solid fa-eye"></i>
+                                <span>veiws</span>
+                            </div>
+                            <div class="coin">
+                                <i class="fa-solid fa-database"></i>
+                                <span>5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-mob">
+                        <div class="box-one">
+                            <i class="fa-solid fa-circle-play circles"></i>
+                            <div class="be">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>Dribbble</span>
+                            </div>
+                            <div class="progres">
+                                <div class="prog">
+                                    <span>950</span>
+                                    <span>950</span>
+                                </div>
+                                <span></span>
+                                <span style="width:100%"></span>
+                            </div>
+                        </div>
+                        <div class="box-two">
+                            <i class="fa-solid fa-check checked"></i>
+                            <div class="likes">
+                                <i class="fa-solid fa-user blue-user"></i>
+                                <span>Follwers</span>
+                            </div>
+                            <div class="coin">
+                                <i class="fa-solid fa-database"></i>
+                                <span>25</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Task History Section -->
+        <!-- Start Footer Section -->
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="social">
+                    <i class="fa-brands fa-twitter twitter"></i>
+                    <i class="fa-brands fa-telegram telegram"></i>
+                    <i class="fa-brands fa-youtube youtube"></i>
+                </div>
+                <div class="copy">
+                    <p class="copyright">2022 &copy; <span>WebServices</span> All Right Reserved By <span>AR-Media</span></p>
+                </div>
+                <div class="reverced">
+                    <p>For Commercial Inquiries</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Section -->
+    </body>
+</html>
